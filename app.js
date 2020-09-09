@@ -15,4 +15,4 @@ app.get ('/heroes', function (req,res){
     res.sendFile(file)
 })
 
-app.listen(3000, 'localhost')
+app.listen(3000)
